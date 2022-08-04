@@ -1,0 +1,21 @@
+server:
+  doman: api-gateway
+  port: 4000
+  jwtSecret: hahawd
+  version: 1.0
+
+mysql:
+  driverName: mysql
+  host: 127.0.0.1.57
+  port: 3306
+  database: gin+grpc+etcd
+  username: root
+  password: 123456
+  charset: utf8mb4
+
+etcd:
+  address: 127.0.0.1:2379
+
+redis:
+  address: 127.0.0.1:6379
+  password:
